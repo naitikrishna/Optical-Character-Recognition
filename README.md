@@ -32,13 +32,23 @@ Key steps covered in the notebook:
 ## Dataset
 
 The dataset is provided in `samples1000.zip`. It contains:
+| Property | Value |
+|----------|-------|
+| Source images | 1,000 combined CAPTCHA images |
+| Total samples | **5,000** individual character images |
+| Classes | 26 (a–z) |
+| Samples per class | ~163–199 (well balanced) |
+| Train / Test split | 80% / 20% |
+ 
+Each image filename encodes its label — e.g., `pfaqep.png` contains letters `p`, `f`, `a`, `q`, `e`, `p` in order.
 
 
 ## Prerequisites
 
-- Python 3.8+
+- Python 3.9+
+- **pip** — comes with Python
 - Google Colab
-- Packages listed in `requirements.txt`
+
 
 
 ## Project Structure
